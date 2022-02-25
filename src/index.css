@@ -1,0 +1,806 @@
+#root, body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./images/back_2.jpg');
+    background-size: cover;
+}
+
+#myVideo {
+    position: fixed;
+    right: 50px;
+    bottom: 360px;
+    width: 25%;
+    height: 35%;
+}
+
+#myVideo1 {
+    position: fixed;
+    right: 50px;
+    bottom: 100px;
+    width: 25%;
+    height: 35%;
+}
+
+#myVideo2 {
+    position: fixed;
+    right: 240px;
+    bottom: 315px;
+    width: 40%;
+    height: 40%;
+}
+
+.card {
+    margin-top: -235px;
+    margin-left: -470px;
+    width: 169%;
+    height: 45vh;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.dash {
+    width: 50em;
+    border-right: 2px solid rgba(12, 10, 10, 0.75);
+    position: absolute;
+    top: 15%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 10px; 
+    color: white; 
+    margin-left: 35px;
+}
+
+.dash h1 {
+    font-size: 1.5rem;
+    /* text-transform: uppercase; */
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.dash-typewriter {
+    animation: typewriter2 6s steps(40) 1s 1 normal both,
+    blinkTextCursor2 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter2 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50em;
+    }
+}
+
+@keyframes blinkTextCursor2 {
+    from {
+        border-right-color: transparent;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.shop {
+    width: 50em;
+    border-right: 2px solid rgba(12, 10, 10, 0.75);
+    position: absolute;
+    top: 15%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 60px; 
+    color: white; 
+    margin-left: 35px;
+}
+
+.shop h1 {
+    font-size: 1.5rem;
+    /* text-transform: uppercase; */
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.shop-typewriter {
+    animation: typewriter3 7s steps(30) 6s 1 normal both,
+    blinkTextCursor3 500ms steps(30) infinite normal;
+}
+
+@keyframes typewriter3 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50em;
+    }
+}
+
+@keyframes blinkTextCursor3 {
+    from {
+        border-right-color: transparent;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.good {
+    width: 50em;
+    border-right: 2px solid rgba(12, 10, 10, 0.75);
+    position: absolute;
+    top: 15%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-top: 110px; 
+    color: white; 
+    margin-left: 35px;
+}
+
+.good h1 {
+    font-size: 1.5rem;
+    /* text-transform: uppercase; */
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.good-typewriter {
+    animation: typewriter4 8s steps(40) 11s 1 normal both,
+    blinkTextCursor4 500ms steps(40) infinite normal;
+}
+
+@keyframes typewriter4 {
+    from {
+        width: 0;
+    }
+    to {
+        width: 50em;
+    }
+}
+
+@keyframes blinkTextCursor4 {
+    from {
+        border-right-color: transparent;
+    }
+    to {
+        border-right-color: transparent;
+    }
+}
+
+.header {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.title {
+    font-weight: bold;
+    margin-left: 5px;
+    font-size: 1.1rem;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.dove {
+    font-size: 1.5rem;
+    margin-top: -6px;
+}
+
+.media-icons {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.social {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.social a {
+    color: white;
+}
+
+.head {
+    display: flex;
+}
+
+#music {
+    margin-top: -255px;
+    margin-left: 50px;
+    position: absolute;
+}
+
+button {
+    margin-top: 165px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 35px;
+    border-radius: 5px;
+}
+
+button a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.yright {
+    position: absolute;
+    margin-top: 220px;
+    margin-left: -65px;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+.yright a {
+    color: rgb(172, 247, 59);
+    text-decoration: none;
+    font-family: 'Mochiy Pop P One', sans-serif;
+}
+
+
+/* Responsiveness */
+
+@media (max-width: 320px) {
+    body {
+        position: fixed;
+    }
+
+    .container {
+        overflow-y: hidden;
+        position: fixed;
+    }
+
+    #myVideo {
+        height: 25vh;
+        width: 35%;
+        bottom: 100px;
+        right: 190px;
+        position: fixed;
+    }
+
+    #myVideo1 {
+        height: 20vh;
+        width: 35%;
+        bottom: 113px;
+        right: 20px;
+        position: fixed;
+    }
+
+    #myVideo2 {
+        height: 15vh;
+        position: fixed;
+        bottom: 120px;
+        right: 98px;
+    }
+
+    .card {
+        margin-left: -5px;
+        height: 30vh;
+        width: 94%;
+        margin-top: -270px;
+        position: fixed;
+    }
+
+    button {
+        margin-top: 80px;
+        padding: 7px;
+        margin-left: 22px;
+        position: absolute;
+        z-index: 2;
+    }
+
+    button a {
+        font-size: 0.7rem;
+    }
+
+    .title {
+        font-size: 0.7rem;
+    }
+
+    .dove {
+        font-size: 1.1rem;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        margin-left: -15px;
+    }
+
+    .media-icons {
+        margin-left: 23px;
+        margin-top: -8px;
+        font-size: 0.7rem;
+    }
+
+    .dash {
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+
+    .shop {
+        margin-top: 45px;
+        margin-left: 22px;
+    }
+
+    .good {
+        margin-top: 70px;
+        margin-left: 22px;
+    }
+
+    .dash h1 {
+       font-size: 0.8rem;
+    }
+
+    .good h1 {
+        font-size: 0.8rem;
+    }
+
+    .shop h1 {
+        font-size: 0.8rem;
+    }
+
+    #music {
+        width: 80%;
+        height: 7vh;
+        margin-left: 30px;
+        margin-top: -300px;
+        position: fixed;
+    }
+
+    .yright {
+        font-size: 0.7rem;
+        width: 80%;
+        margin-top: 180px;
+        margin-left: 12px;
+        position: fixed;
+        line-height: 16px;
+    }
+}
+
+@media (max-width: 375px) and (min-width: 321px) {
+    body {
+        position: fixed;
+    }
+
+    .container {
+        overflow-y: hidden;
+        position: fixed;
+    }
+
+    #myVideo {
+        height: 25vh;
+        width: 36%;
+        bottom: 90px;
+        right: 220px;
+        position: fixed;
+    }
+
+    #myVideo1 {
+        height: 20vh;
+        width: 36%;
+        bottom: 104px;
+        right: 20px;
+        position: fixed;
+    }
+
+    #myVideo2 {
+        height: 15vh;
+        position: fixed;
+        bottom: 116px;
+        right: 114px;
+    }
+
+    .card {
+        margin-left: 6px;
+        height: 30vh;
+        width: 88%;
+        margin-top: -270px;
+        position: fixed;
+    }
+
+    button {
+        margin-top: 80px;
+        padding: 7px;
+        margin-left: 22px;
+        position: relative;
+    }
+
+    button a {
+        font-size: 0.7rem;
+    }
+
+    .title {
+        font-size: 0.7rem;
+    }
+
+    .dove {
+        font-size: 1.1rem;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        margin-left: -15px;
+    }
+
+    .media-icons {
+        margin-left: 23px;
+        margin-top: -8px;
+        font-size: 0.7rem;
+    }
+
+    .dash {
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+
+    .shop {
+        margin-top: 45px;
+        margin-left: 22px;
+    }
+
+    .good {
+        margin-top: 70px;
+        margin-left: 22px;
+    }
+
+    .dash h1 {
+       font-size: 0.8rem;
+    }
+
+    .good h1 {
+        font-size: 0.8rem;
+    }
+
+    .shop h1 {
+        font-size: 0.8rem;
+    }
+
+    #music {
+        width: 80%;
+        height: 7vh;
+        margin-left: 35px;
+        position: fixed;
+        margin-top: -300px;
+    }
+
+    .yright {
+        font-size: 0.7rem;
+        width: 80%;
+        margin-top: 205px;
+        margin-left: 22px;
+        position: fixed;
+        line-height: 16px;
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px) {
+    body {
+        position: fixed;
+    }
+
+    .container {
+        overflow-y: hidden;
+        position: fixed;
+    }
+
+    #myVideo {
+        height: 25vh;
+        width: 38%;
+        bottom: 90px;
+        right: 246px;
+        position: fixed;
+    }
+
+    #myVideo1 {
+        height: 20vh;
+        width: 38%;
+        bottom: 102px;
+        right: 20px;
+        position: fixed;
+    }
+
+    #myVideo2 {
+        height: 19vh;
+        position: fixed;
+        bottom: 103px;
+        right: 129px;
+    }
+
+    .card {
+        margin-left: 9px;
+        height: 30vh;
+        width: 88%;
+        margin-top: -270px;
+        position: fixed;
+    }
+
+    button {
+        margin-top: 80px;
+        padding: 7px;
+        margin-left: 22px;
+        position: fixed;
+    }
+
+    button a {
+        font-size: 0.7rem;
+    }
+
+    .title {
+        font-size: 0.7rem;
+    }
+
+    .dove {
+        font-size: 1.1rem;
+    }
+
+    .head {
+        display: flex;
+        flex-direction: column;
+        margin-left: -15px;
+    }
+
+    .media-icons {
+        margin-left: 23px;
+        margin-top: -8px;
+        font-size: 0.7rem;
+    }
+
+    .dash {
+        margin-top: 20px;
+        margin-left: 22px;
+    }
+
+    .shop {
+        margin-top: 45px;
+        margin-left: 22px;
+    }
+
+    .good {
+        margin-top: 70px;
+        margin-left: 22px;
+    }
+
+    .dash h1 {
+       font-size: 0.8rem;
+    }
+
+    .good h1 {
+        font-size: 0.8rem;
+    }
+
+    .shop h1 {
+        font-size: 0.8rem;
+    }
+
+    #music {
+        width: 80%;
+        height: 7vh;
+        margin-left: 42px;
+        margin-top: -300px;
+        position: fixed;
+    }
+
+    .yright {
+        font-size: 0.7rem;
+        width: 80%;
+        margin-top: 205px;
+        margin-left: 22px;
+        position: fixed;
+        line-height: 16px;
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+    body {
+        position: fixed;
+    }
+    
+    .container {
+        position: fixed;
+    }
+
+    #myVideo {
+        bottom: 297px;
+        right: 20px;
+        width: 28%;
+        position: fixed;
+    }
+
+    #myVideo2 {
+        bottom: 149px;
+        right: 160px;
+        position: fixed;
+    }
+
+    #myVideo1 {
+        right: 20px;
+        bottom: 124px;
+        width: 28%;
+        position: fixed;
+    }
+
+    .card {
+        margin-left: -270px;
+        width: 47%;
+        height: 42vh;
+        margin-top: -200px;
+        position: fixed;
+    }
+
+    .head {
+        width: 100%;
+        margin-left: -20px;
+    }
+
+    .title {
+        font-size: 0.8rem;
+        position: absolute;
+        margin-left: 27px;
+    }
+
+    .media-icons {
+        font-size: 0.8rem; 
+    }
+
+    .dash {
+        margin-top: -10px;
+        margin-left: 18px;
+    }
+
+    .shop {
+        margin-top: 15px;
+        margin-left: 18px;
+    }
+
+    .good {
+        margin-top: 42px;
+        margin-left: 18px;
+    }
+
+    .back-style {
+        position: absolute;
+    }
+
+    .dash h1 {
+        font-size: 0.8rem;   
+    }
+
+    .shop h1 {
+        font-size: 0.8rem;
+    }
+
+    .good h1 {
+        font-size: 0.8rem;
+    }
+
+    button {
+        margin-top: 100px;
+        margin-left: 18px;
+    }
+
+    #music {
+        height: 8vh;
+        margin-top: -220px;
+    }
+
+    .yright {
+        position: fixed;
+        margin-top: 180px;
+        margin-left: -100px;
+        font-size: 0.9rem;
+        line-height: 18px;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .container {
+        position: fixed;
+    }
+
+    #myVideo {
+        bottom: 285px;
+        right: 36px;
+        width: 28%;
+        position: fixed;
+    }
+
+    #myVideo2 {
+        bottom: 127px;
+        right: 185px;
+        position: fixed;
+    }
+
+    #myVideo1 {
+        right: 36px;
+        bottom: 115px;
+        width: 28%;
+        position: fixed;
+    }
+
+    .card {
+        margin-left: -310px;
+        width: 39%;
+        height: 42vh;
+        margin-top: -200px;
+        position: fixed;
+    }
+
+    .head {
+        width: 100%;
+        margin-left: -20px;
+    }
+
+    .title {
+        font-size: 0.8rem;
+        position: absolute;
+        margin-left: 27px;
+    }
+
+    .media-icons {
+        font-size: 0.8rem; 
+    }
+
+    .dash {
+        margin-top: -10px;
+        margin-left: 18px;
+    }
+
+    .shop {
+        margin-top: 15px;
+        margin-left: 18px;
+    }
+
+    .good {
+        margin-top: 42px;
+        margin-left: 18px;
+    }
+
+    .back-style {
+        position: absolute;
+    }
+
+    .dash h1 {
+        font-size: 0.8rem;   
+    }
+
+    .shop h1 {
+        font-size: 0.8rem;
+    }
+
+    .good h1 {
+        font-size: 0.8rem;
+    }
+
+    button {
+        margin-top: 100px;
+        margin-left: 18px;
+    }
+
+    #music {
+        height: 8vh;
+        margin-top: -220px;
+    }
+
+    .yright {
+        position: fixed;
+        margin-top: 180px;
+        margin-left: -80px;
+        font-size: 0.9rem;
+        line-height: 18px;
+    }
+}
+
+
+
+
+
